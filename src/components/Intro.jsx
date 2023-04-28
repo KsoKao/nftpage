@@ -25,28 +25,28 @@ const Intro = ({ totalNft, mintedNft, myNft }) => {
             <FaChessRook size={16} />
           </div>
         </div>
-        <div className="mt-2 flex items-center text-gray-300">
+        <div className="mt-2 flex items-center text-black">
           by
-          <div className="text-main ml-2">{CONTRACT_ADDRESS}</div>
+          <div className="text-main ml-2 text-black">{CONTRACT_ADDRESS}</div>
         </div>
-        <div className="mt-2 text-gray-300">
+        <div className="mt-2 text-black font-bold">
           다덴부란(.env란 "environment"의 약어)은 소프트웨어 개발에서 자주
           사용되는 파일 형식 중 하나입니다. 이 파일은 소프트웨어 개발자들이
           프로젝트에서 사용되는 환경 변수(environment variable)를 저장하는 데
           사용됩니다.
         </div>
-        <div className="py-4 text-center flex">
+        <div className="py-4 text-center flex ">
           <div>
             <div className="font-bold">{totalNft}</div>
-            <div className="text-gray-300">총 NFT</div>
+            <div className="">총 NFT</div>
           </div>
           <div className="ml-4">
             <div className="font-bold">{mintedNft}</div>
-            <div className="text-gray-300">발행된 NFT</div>
+            <div className="">발행된 NFT</div>
           </div>
           <div className="ml-4">
             <div className="font-bold">{myNft}</div>
-            <div className="text-gray-300">내 NFT</div>
+            <div className="">내 NFT</div>
           </div>
         </div>
       </div>
